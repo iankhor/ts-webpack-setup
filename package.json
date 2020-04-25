@@ -17,20 +17,6 @@
     "typescript": "^3.8.3",
     "webpack-dev-server": "^3.10.3"
   },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "<rootDir>/testlib/test-setup.js"
-    ],
-    "transform": {
-      "^.+\\.(js|jsx|ts|tsx)?$": "ts-jest"
-    },
-    "moduleNameMapper": {
-      "^hooks/([^\\.]*)$": "<rootDir>/src/hooks/$1",
-      "^components/([^\\.]*)$": "<rootDir>/src/components/$1",
-      "^lib/([^\\.]*)$": "<rootDir>/src/lib/$1",
-      "^testlib/([^\\.]*)$": "<rootDir>/testlib/$1"
-    }
-  },
   "dependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^3.5.2",
