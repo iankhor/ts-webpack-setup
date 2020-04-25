@@ -18,10 +18,11 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^3.5.2",
     "html-webpack-plugin": "^4.2.0",
+    "source-map-loader": "^0.2.4",
     "style-loader": "^1.1.4",
+    "ts-loader": "^7.0.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }

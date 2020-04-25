@@ -17,7 +17,7 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         include: path.resolve(__dirname, 'src'),
-        use: 'awesome-typescript-loader',
+        use: 'ts-loader',
       },
       {
         test: /\.css$/i,
